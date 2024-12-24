@@ -3,6 +3,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 import time
 from cnnClassifier.entity.config_entity import PrepareCallbacksConfig
+import os
 
 class PrepareCallback:
     def __init__(self, config: PrepareCallbacksConfig):
